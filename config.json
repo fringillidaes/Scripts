@@ -1,0 +1,67 @@
+{
+    "core": {
+        "dry_run": false,
+        "rclone_binary_path": "/homexx/yyyyy/bin/rclone",
+        "rclone_config_path": "/homexx/yyyyy/.config/rclone/rclone.conf"
+    },
+    "hidden": {},
+    "notifications": {},
+    "nzbget": {
+        "enabled": true,
+        "url": "http://jjjjjgjjj@hhhhhyhhy"
+    },
+    "remotes": {
+        "remotename": {
+            "hidden_remote": "remotename:",
+            "rclone_command": "move",
+            "rclone_excludes": [
+                "**partial~",
+                "**_HIDDEN~"
+            ],
+            "rclone_extras": {
+                "--bwlimit": "30M",
+                "--fast-list": null,
+                "--tpslimit": "5",
+                "--use-mmap": null,
+                "--checkers": 6,
+                "--drive-chunk-size": "64M",
+                "--skip-links": null,
+                "--stats": "60s",
+                "--transfers": 3,
+                "--user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36",
+                "--verbose": 1
+            },
+            "rclone_sleeps": {
+                "Failed to copy: googleapi: Error 403: User rate limit exceeded": {
+                    "count": 5,
+                    "sleep": 25,
+                    "timeout": 3600
+                }
+            },
+            "remove_empty_dir_depth": 2,
+            "sync_remote": "remotename:/Media",
+            "upload_folder": "/homexx/yyyyy/Stuff/Local/Media",
+            "upload_remote": "remotename:/Media"
+        }
+    },
+    "syncer": {},
+    "uploader": {
+        "remotename": {
+            "can_be_throttled": true,
+            "check_interval": 1,
+            "exclude_open_files": true,
+            "max_size_gb": 200,
+            "opened_excludes": [
+                "/downloads/"
+            ],
+            "schedule": {
+                "allowed_from": "04:00",
+                "allowed_until": "08:00",
+                "enabled": false
+            },
+            "size_excludes": [
+                "downloads/*"
+            ]
+        }
+    }
+}
