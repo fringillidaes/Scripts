@@ -5,7 +5,7 @@ After=network-online.target
 [Service]
 Type=simple
 WorkingDirectory=1t1t1t1t
-ExecStart=1l1l1l1l 7u7u7u7u run --loglevel=INFO
+ExecStart=1l1l1l1l 7u7u7u7u run --config lklklklk --loglevel=INFO
 ExecStopPost=/bin/rm -rf 8o8o8o8o
 Restart=always
 RestartSec=10
