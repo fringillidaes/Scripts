@@ -19,15 +19,16 @@
                 "**_HIDDEN~"
             ],
             "rclone_extras": {
-                "--bwlimit": "30M",
+                "--bwlimit": "8M",
                 "--fast-list": null,
                 "--tpslimit": "5",
+                "--delete-empty-src-dirs": null,
                 "--use-mmap": null,
-                "--checkers": 6,
+                "--checkers": 4,
                 "--drive-chunk-size": "64M",
                 "--skip-links": null,
                 "--stats": "60s",
-                "--transfers": 3,
+                "--transfers": 2,
                 "--user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36",
                 "--verbose": 1
             },
