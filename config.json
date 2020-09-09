@@ -53,7 +53,6 @@
             "exclude_open_files": true,
             "max_size_gb": 200,
             "opened_excludes": [
-                "/downloads/"
             ],
             "schedule": {
                 "allowed_from": "04:00",
@@ -61,7 +60,6 @@
                 "enabled": false
             },
             "size_excludes": [
-                "downloads/*"
             ]
         }
     }
