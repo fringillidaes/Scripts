@@ -1,0 +1,20 @@
+[
+    {
+        "guid": "763de140-8ea2-4511-acbd-b673804f2def",
+        "name": "Trakt",
+        "description": "Trackt plugin built by finch.\n",
+        "overview": "Record your watched media with Trakt",
+        "owner": "finch",
+        "category": "General",
+        "versions": [
+			{
+                "version": "10.7.0.2",
+                "changelog": "Fix error where movies were merged only by year\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/fringillidaes/Scripts/raw/master/Trakt.zip",
+                "checksum": "A5D3AF0DB68AE8F010E60A666E290310",
+                "timestamp": "2021-02-02 02:45:58"
+            },
+        ]
+    }
+]
